@@ -1,0 +1,63 @@
+[debug] [2025-11-16T17:31:46.447Z] ----------------------------------------------------------------------
+[debug] [2025-11-16T17:31:46.460Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sociopathy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-11-16T17:31:46.461Z] CLI Version:   14.25.0
+[debug] [2025-11-16T17:31:46.461Z] Platform:      win32
+[debug] [2025-11-16T17:31:46.462Z] Node Version:  v22.17.0
+[debug] [2025-11-16T17:31:46.462Z] Time:          Sun Nov 16 2025 22:31:46 GMT+0500 (Екатеринбург, стандартное время)
+[debug] [2025-11-16T17:31:46.462Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sociopathy\Desktop\777\animesate
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-11-16T17:31:52.896Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-16T17:31:52.896Z] > authorizing via signed-in user (vanafedorov40@gmail.com)
+[debug] [2025-11-16T17:31:52.898Z] Checked if tokens are valid: true, expires at: 1763317568446
+[debug] [2025-11-16T17:31:52.898Z] Checked if tokens are valid: true, expires at: 1763317568446
+[debug] [2025-11-16T17:31:52.900Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c [none]
+[debug] [2025-11-16T17:31:53.597Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c 200
+[debug] [2025-11-16T17:31:53.598Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c {"projectId":"my-anime-website-50b6c","projectNumber":"383424700016","displayName":"my anime website","name":"projects/my-anime-website-50b6c","resources":{"hostingSite":"my-anime-website-50b6c"},"state":"ACTIVE","etag":"1_5a03564d-2bf8-4745-b191-e71c7bdcfdcb"}
+[info] i  Using project my-anime-website-50b6c (my anime website) . 
+[info] 
+=== Hosting Setup
+[debug] [2025-11-16T17:31:53.610Z] Checked if tokens are valid: true, expires at: 1763317568446
+[debug] [2025-11-16T17:31:53.610Z] Checked if tokens are valid: true, expires at: 1763317568446
+[debug] [2025-11-16T17:31:53.610Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c [none]
+[debug] [2025-11-16T17:31:54.053Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c 200
+[debug] [2025-11-16T17:31:54.053Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c {"projectId":"my-anime-website-50b6c","projectNumber":"383424700016","displayName":"my anime website","name":"projects/my-anime-website-50b6c","resources":{"hostingSite":"my-anime-website-50b6c"},"state":"ACTIVE","etag":"1_5a03564d-2bf8-4745-b191-e71c7bdcfdcb"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] 
+[info] i  Detected a .git folder at C:\Users\sociopathy\Desktop\777\animesate 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=324852355&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-11-16T17:32:09.539Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-11-16T17:32:09.539Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-11-16T17:32:10.019Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-11-16T17:32:10.020Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-11-16T17:32:10.027Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-11-16T17:32:10.578Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-11-16T17:32:10.578Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"GhostDoxBin","id":163060383,"node_id":"U_kgDOCbganw","avatar_url":"https://avatars.githubusercontent.com/u/163060383?v=4","gravatar_id":"","url":"https://api.github.com/users/GhostDoxBin","html_url":"https://github.com/GhostDoxBin","followers_url":"https://api.github.com/users/GhostDoxBin/followers","following_url":"https://api.github.com/users/GhostDoxBin/following{/other_user}","gists_url":"https://api.github.com/users/GhostDoxBin/gists{/gist_id}","starred_url":"https://api.github.com/users/GhostDoxBin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/GhostDoxBin/subscriptions","organizations_url":"https://api.github.com/users/GhostDoxBin/orgs","repos_url":"https://api.github.com/users/GhostDoxBin/repos","events_url":"https://api.github.com/users/GhostDoxBin/events{/privacy}","received_events_url":"https://api.github.com/users/GhostDoxBin/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Ghost|DoxBin","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":5,"public_gists":0,"followers":0,"following":0,"created_at":"2024-03-11T21:27:22Z","updated_at":"2025-11-14T07:03:28Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":870,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as GhostDoxBin 
+[info] 

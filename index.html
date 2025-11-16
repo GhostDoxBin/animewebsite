@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Watching Site</title>
+    <link rel="stylesheet" href="styles.css">
+ <script src="https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#genres">Genres</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <button onclick="location.href='registration.html'">Login</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Your Ultimate Destination for Anime Lovers!</h1>
+            <p>Find the best shows and movies in one place.</p>
+            <button>AniStream Now</button>
+        </section>
+
+        <section id="search">
+            <input type="text" id="search-input" placeholder="Search anime..." />
+            <button id="search-button">Search</button>
+        </section>
+
+        <section id="featured">
+            <h2>Popular Anime Right Now</h2>
+            <div class="anime-grid">
+                <!-- Карточки будут создаваться динамически -->
+            </div>
+        </section>
+
+        <section id="genres">
+            <h2>Browse by Genre</h2>
+            <div class="genre-list">
+                <a href="#" data-genre="action">Action</a>
+                <a href="#" data-genre="comedy">Comedy</a>
+                <a href="#" data-genre="drama">Drama</a>
+                <!-- Остальные жанры -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 AniStream. All Rights Reserved.</p>
+    </footer>
+    <script defer src="script.js"></script>
+</body>
+</html>
