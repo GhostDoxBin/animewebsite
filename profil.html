@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    .profile-info {
+      text-align: center;
+    }
+    .profile-info h2 {
+      margin-bottom: 10px;
+    }
+    .profile-info p {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="user.jpg" alt="User Profile" class="profile-image">
+    <div class="profile-info">
+      <h2 id="username"></h2>
+      <p><strong>Email:</strong> <span id="email"></span></p>
+      <p><strong>Bio:</strong> <span id="bio"></span></p>
+    </div>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
