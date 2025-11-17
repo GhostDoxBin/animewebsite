@@ -1,10 +1,10 @@
-[debug] [2025-11-16T17:31:46.447Z] ----------------------------------------------------------------------
-[debug] [2025-11-16T17:31:46.460Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sociopathy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
-[debug] [2025-11-16T17:31:46.461Z] CLI Version:   14.25.0
-[debug] [2025-11-16T17:31:46.461Z] Platform:      win32
-[debug] [2025-11-16T17:31:46.462Z] Node Version:  v22.17.0
-[debug] [2025-11-16T17:31:46.462Z] Time:          Sun Nov 16 2025 22:31:46 GMT+0500 (Екатеринбург, стандартное время)
-[debug] [2025-11-16T17:31:46.462Z] ----------------------------------------------------------------------
+[debug] [2025-11-16T19:51:10.433Z] ----------------------------------------------------------------------
+[debug] [2025-11-16T19:51:10.437Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sociopathy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-11-16T19:51:10.438Z] CLI Version:   14.25.0
+[debug] [2025-11-16T19:51:10.438Z] Platform:      win32
+[debug] [2025-11-16T19:51:10.438Z] Node Version:  v22.17.0
+[debug] [2025-11-16T19:51:10.439Z] Time:          Mon Nov 17 2025 00:51:10 GMT+0500 (Екатеринбург, стандартное время)
+[debug] [2025-11-16T19:51:10.439Z] ----------------------------------------------------------------------
 [debug] 
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
@@ -17,47 +17,143 @@ You're about to initialize a Firebase project in this directory:
 
   C:\Users\sociopathy\Desktop\777\animesate
 
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2025-11-16T20:16:31.591Z] ----------------------------------------------------------------------
+[debug] [2025-11-16T20:16:31.593Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sociopathy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-11-16T20:16:31.593Z] CLI Version:   14.25.0
+[debug] [2025-11-16T20:16:31.593Z] Platform:      win32
+[debug] [2025-11-16T20:16:31.593Z] Node Version:  v22.17.0
+[debug] [2025-11-16T20:16:31.594Z] Time:          Mon Nov 17 2025 01:16:31 GMT+0500 (Екатеринбург, стандартное время)
+[debug] [2025-11-16T20:16:31.594Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-16T20:16:31.747Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-16T20:16:31.747Z] > authorizing via signed-in user (vanafedorov40@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-11-16T20:16:31.756Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-11-16T20:16:31.756Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-11-16T20:16:31.756Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-11-16T20:16:31.760Z] Emulator locator file path: C:\Users\SOCIOP~1\AppData\Local\Temp\hub-my-anime-website-50b6c.json
+[debug] [2025-11-16T20:16:31.760Z] [hub] writing locator at C:\Users\SOCIOP~1\AppData\Local\Temp\hub-my-anime-website-50b6c.json
+[debug] [2025-11-16T20:16:31.773Z] Checked if tokens are valid: false, expires at: 1763322388883
+[debug] [2025-11-16T20:16:31.774Z] Checked if tokens are valid: false, expires at: 1763322388883
+[debug] [2025-11-16T20:16:31.774Z] > refreshing access token with scopes: []
+[debug] [2025-11-16T20:16:31.775Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-16T20:16:31.775Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-16T20:16:32.153Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-16T20:16:32.153Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-16T20:16:32.160Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-anime-website-50b6c/sites 
+[debug] [2025-11-16T20:16:33.537Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-anime-website-50b6c/sites 200
+[debug] [2025-11-16T20:16:33.537Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-anime-website-50b6c/sites {"sites":[{"name":"projects/my-anime-website-50b6c/sites/my-anime-website-50b6c","defaultUrl":"https://my-anime-website-50b6c.web.app","appId":"1:383424700016:web:5672a1f4cb05c28cdb1eb5","type":"DEFAULT_SITE"}]}
+[debug] [2025-11-16T20:16:33.537Z] Checked if tokens are valid: true, expires at: 1763327791153
+[debug] [2025-11-16T20:16:33.537Z] Checked if tokens are valid: true, expires at: 1763327791153
+[debug] [2025-11-16T20:16:33.537Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c/webApps/1:383424700016:web:5672a1f4cb05c28cdb1eb5/config [none]
+[debug] [2025-11-16T20:16:34.559Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c/webApps/1:383424700016:web:5672a1f4cb05c28cdb1eb5/config 200
+[debug] [2025-11-16T20:16:34.559Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c/webApps/1:383424700016:web:5672a1f4cb05c28cdb1eb5/config {"projectId":"my-anime-website-50b6c","appId":"1:383424700016:web:5672a1f4cb05c28cdb1eb5","storageBucket":"my-anime-website-50b6c.firebasestorage.app","apiKey":"AIzaSyCuPn6pWRDmy92Fc7TqCoxDy-E2-KZSYE4","authDomain":"my-anime-website-50b6c.firebaseapp.com","messagingSenderId":"383424700016","measurementId":"G-5KCLYG12ER","projectNumber":"383424700016","version":"2"}
+[debug] [2025-11-16T20:16:34.562Z] Checked if tokens are valid: true, expires at: 1763327791153
+[debug] [2025-11-16T20:16:34.562Z] Checked if tokens are valid: true, expires at: 1763327791153
+[debug] [2025-11-16T20:16:34.562Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c [none]
+[debug] [2025-11-16T20:16:35.047Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c 200
+[debug] [2025-11-16T20:16:35.047Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c {"projectId":"my-anime-website-50b6c","projectNumber":"383424700016","displayName":"my anime website","name":"projects/my-anime-website-50b6c","resources":{"hostingSite":"my-anime-website-50b6c"},"state":"ACTIVE","etag":"1_18880796-aa3d-4a70-a0ca-d80a99ad2d88"}
+[info] i  hosting[my-anime-website-50b6c]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[my-anime-website-50b6c]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting because none of the running emulators have a UI component. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting because none of the running emulators have a UI component."}}
+[debug] [2025-11-16T20:16:35.065Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
 [info] 
-=== Project Setup
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:19:05 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:19:05 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:19:05 +0000] "GET /styles.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:19:05 +0000] \"GET /styles.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:19:06 +0000] "GET /script.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:19:06 +0000] \"GET /script.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:19:06 +0000] "GET /background.jpg HTTP/1.1" 200 180024 "http://127.0.0.1:5000/styles.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:19:06 +0000] \"GET /background.jpg HTTP/1.1\" 200 180024 \"http://127.0.0.1:5000/styles.css\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:19:06 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:19:06 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:19:09 +0000] "GET /registration.html HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:19:09 +0000] \"GET /registration.html HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:19:09 +0000] "GET /styles2.css HTTP/1.1" 200 - "http://127.0.0.1:5000/registration.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:19:09 +0000] \"GET /styles2.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/registration.html\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:19:19 +0000] "GET /registration.html?email=vanafedorov40%40gmail.com&password=TicTac123.456 HTTP/1.1" 200 - "http://127.0.0.1:5000/registration.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:19:19 +0000] \"GET /registration.html?email=vanafedorov40%40gmail.com&password=TicTac123.456 HTTP/1.1\" 200 - \"http://127.0.0.1:5000/registration.html\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:19:24 +0000] "GET /registration.html?email=niktoa261%40gmail.com&password=sdfsdf HTTP/1.1" 200 - "http://127.0.0.1:5000/registration.html?email=vanafedorov40%40gmail.com&password=TicTac123.456" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:19:24 +0000] \"GET /registration.html?email=niktoa261%40gmail.com&password=sdfsdf HTTP/1.1\" 200 - \"http://127.0.0.1:5000/registration.html?email=vanafedorov40%40gmail.com&password=TicTac123.456\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:34:05 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:34:05 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Nov/2025:20:34:05 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Nov/2025:20:34:05 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[debug] [2025-11-16T20:37:17.970Z] Received signal SIGHUP 1
+[info]  
+[info] i  emulators: Received SIGHUP for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGHUP signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hosting: Stopping Hosting Emulator {"metadata":{"emulator":{"name":"hosting"},"message":"Stopping Hosting Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2025-11-16T20:37:17.973Z] Emulator locator file path: C:\Users\SOCIOP~1\AppData\Local\Temp\hub-my-anime-website-50b6c.json
+[info] i  logging: Stopping Logging Emulator {"metadata":{"emulator":{"name":"logging"},"message":"Stopping Logging Emulator"}}
+[debug] [2025-11-16T20:37:17.976Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[debug] [2025-11-17T08:52:59.306Z] ----------------------------------------------------------------------
+[debug] [2025-11-17T08:52:59.318Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sociopathy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-11-17T08:52:59.318Z] CLI Version:   14.25.0
+[debug] [2025-11-17T08:52:59.319Z] Platform:      win32
+[debug] [2025-11-17T08:52:59.319Z] Node Version:  v22.17.0
+[debug] [2025-11-17T08:52:59.319Z] Time:          Mon Nov 17 2025 13:52:59 GMT+0500 (Екатеринбург, стандартное время)
+[debug] [2025-11-17T08:52:59.319Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-17T08:52:59.677Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-17T08:52:59.678Z] > authorizing via signed-in user (vanafedorov40@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-11-17T08:52:59.693Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-11-17T08:52:59.693Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-11-17T08:52:59.693Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-11-17T08:52:59.700Z] Emulator locator file path: C:\Users\SOCIOP~1\AppData\Local\Temp\hub-my-anime-website-50b6c.json
+[debug] [2025-11-17T08:52:59.700Z] [hub] writing locator at C:\Users\SOCIOP~1\AppData\Local\Temp\hub-my-anime-website-50b6c.json
+[debug] [2025-11-17T08:52:59.729Z] Checked if tokens are valid: false, expires at: 1763327791153
+[debug] [2025-11-17T08:52:59.729Z] Checked if tokens are valid: false, expires at: 1763327791153
+[debug] [2025-11-17T08:52:59.729Z] > refreshing access token with scopes: []
+[debug] [2025-11-17T08:52:59.731Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-17T08:52:59.731Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-17T08:53:00.552Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-17T08:53:00.552Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-17T08:53:00.561Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-anime-website-50b6c/sites 
+[debug] [2025-11-17T08:53:02.169Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-anime-website-50b6c/sites 200
+[debug] [2025-11-17T08:53:02.169Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-anime-website-50b6c/sites {"sites":[{"name":"projects/my-anime-website-50b6c/sites/my-anime-website-50b6c","defaultUrl":"https://my-anime-website-50b6c.web.app","appId":"1:383424700016:web:5672a1f4cb05c28cdb1eb5","type":"DEFAULT_SITE"}]}
+[debug] [2025-11-17T08:53:02.169Z] Checked if tokens are valid: true, expires at: 1763373179552
+[debug] [2025-11-17T08:53:02.169Z] Checked if tokens are valid: true, expires at: 1763373179552
+[debug] [2025-11-17T08:53:02.169Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c/webApps/1:383424700016:web:5672a1f4cb05c28cdb1eb5/config [none]
+[debug] [2025-11-17T08:53:03.088Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c/webApps/1:383424700016:web:5672a1f4cb05c28cdb1eb5/config 200
+[debug] [2025-11-17T08:53:03.088Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c/webApps/1:383424700016:web:5672a1f4cb05c28cdb1eb5/config {"projectId":"my-anime-website-50b6c","appId":"1:383424700016:web:5672a1f4cb05c28cdb1eb5","storageBucket":"my-anime-website-50b6c.firebasestorage.app","apiKey":"AIzaSyCuPn6pWRDmy92Fc7TqCoxDy-E2-KZSYE4","authDomain":"my-anime-website-50b6c.firebaseapp.com","messagingSenderId":"383424700016","measurementId":"G-5KCLYG12ER","projectNumber":"383424700016","version":"2"}
+[debug] [2025-11-17T08:53:03.093Z] Checked if tokens are valid: true, expires at: 1763373179552
+[debug] [2025-11-17T08:53:03.093Z] Checked if tokens are valid: true, expires at: 1763373179552
+[debug] [2025-11-17T08:53:03.093Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c [none]
+[debug] [2025-11-17T08:53:03.474Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c 200
+[debug] [2025-11-17T08:53:03.474Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c {"projectId":"my-anime-website-50b6c","projectNumber":"383424700016","displayName":"my anime website","name":"projects/my-anime-website-50b6c","resources":{"hostingSite":"my-anime-website-50b6c"},"state":"ACTIVE","etag":"1_18880796-aa3d-4a70-a0ca-d80a99ad2d88"}
+[info] i  hosting[my-anime-website-50b6c]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[my-anime-website-50b6c]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting because none of the running emulators have a UI component. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting because none of the running emulators have a UI component."}}
+[debug] [2025-11-17T08:53:03.503Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
 [info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] 
-[debug] [2025-11-16T17:31:52.896Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-11-16T17:31:52.896Z] > authorizing via signed-in user (vanafedorov40@gmail.com)
-[debug] [2025-11-16T17:31:52.898Z] Checked if tokens are valid: true, expires at: 1763317568446
-[debug] [2025-11-16T17:31:52.898Z] Checked if tokens are valid: true, expires at: 1763317568446
-[debug] [2025-11-16T17:31:52.900Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c [none]
-[debug] [2025-11-16T17:31:53.597Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c 200
-[debug] [2025-11-16T17:31:53.598Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c {"projectId":"my-anime-website-50b6c","projectNumber":"383424700016","displayName":"my anime website","name":"projects/my-anime-website-50b6c","resources":{"hostingSite":"my-anime-website-50b6c"},"state":"ACTIVE","etag":"1_5a03564d-2bf8-4745-b191-e71c7bdcfdcb"}
-[info] i  Using project my-anime-website-50b6c (my anime website) . 
-[info] 
-=== Hosting Setup
-[debug] [2025-11-16T17:31:53.610Z] Checked if tokens are valid: true, expires at: 1763317568446
-[debug] [2025-11-16T17:31:53.610Z] Checked if tokens are valid: true, expires at: 1763317568446
-[debug] [2025-11-16T17:31:53.610Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c [none]
-[debug] [2025-11-16T17:31:54.053Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c 200
-[debug] [2025-11-16T17:31:54.053Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-anime-website-50b6c {"projectId":"my-anime-website-50b6c","projectNumber":"383424700016","displayName":"my anime website","name":"projects/my-anime-website-50b6c","resources":{"hostingSite":"my-anime-website-50b6c"},"state":"ACTIVE","etag":"1_5a03564d-2bf8-4745-b191-e71c7bdcfdcb"}
-[info] 
-[info] Your public directory is the folder (relative to your project directory) that
-[info] will contain Hosting assets to be uploaded with firebase deploy. If you
-[info] have a build process for your assets, use your build's output directory.
-[info] 
-[info] 
-[info] i  Detected a .git folder at C:\Users\sociopathy\Desktop\777\animesate 
-[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
-[info] 
-[info] Visit this URL on this device to log in:
-[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=324852355&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
-[info] 
-[info] Waiting for authentication...
-[debug] [2025-11-16T17:32:09.539Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
-[debug] [2025-11-16T17:32:09.539Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
-[debug] [2025-11-16T17:32:10.019Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
-[debug] [2025-11-16T17:32:10.020Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
-[debug] [2025-11-16T17:32:10.027Z] >>> [apiv2][query] GET https://api.github.com/user [none]
-[debug] [2025-11-16T17:32:10.578Z] <<< [apiv2][status] GET https://api.github.com/user 200
-[debug] [2025-11-16T17:32:10.578Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"GhostDoxBin","id":163060383,"node_id":"U_kgDOCbganw","avatar_url":"https://avatars.githubusercontent.com/u/163060383?v=4","gravatar_id":"","url":"https://api.github.com/users/GhostDoxBin","html_url":"https://github.com/GhostDoxBin","followers_url":"https://api.github.com/users/GhostDoxBin/followers","following_url":"https://api.github.com/users/GhostDoxBin/following{/other_user}","gists_url":"https://api.github.com/users/GhostDoxBin/gists{/gist_id}","starred_url":"https://api.github.com/users/GhostDoxBin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/GhostDoxBin/subscriptions","organizations_url":"https://api.github.com/users/GhostDoxBin/orgs","repos_url":"https://api.github.com/users/GhostDoxBin/repos","events_url":"https://api.github.com/users/GhostDoxBin/events{/privacy}","received_events_url":"https://api.github.com/users/GhostDoxBin/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Ghost|DoxBin","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":5,"public_gists":0,"followers":0,"following":0,"created_at":"2024-03-11T21:27:22Z","updated_at":"2025-11-14T07:03:28Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":870,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
-[info] 
-[info] +  Success! Logged into GitHub as GhostDoxBin 
-[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [17/Nov/2025:08:53:14 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [17/Nov/2025:08:53:14 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [17/Nov/2025:08:53:14 +0000] "GET /styles.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [17/Nov/2025:08:53:14 +0000] \"GET /styles.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [17/Nov/2025:08:53:14 +0000] "GET /script.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [17/Nov/2025:08:53:14 +0000] \"GET /script.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [17/Nov/2025:08:53:14 +0000] "GET /background.jpg HTTP/1.1" 200 180024 "http://127.0.0.1:5000/styles.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [17/Nov/2025:08:53:14 +0000] \"GET /background.jpg HTTP/1.1\" 200 180024 \"http://127.0.0.1:5000/styles.css\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [17/Nov/2025:08:53:14 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [17/Nov/2025:08:53:14 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0\""}}
