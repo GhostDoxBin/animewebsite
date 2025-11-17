@@ -1,0 +1,48 @@
+npm install firebase
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCuPn6pWRDmy92Fc7TqCoxDy-E2-KZSYE4",
+  authDomain: "my-anime-website-50b6c.firebaseapp.com",
+  projectId: "my-anime-website-50b6c",
+  storageBucket: "my-anime-website-50b6c.firebasestorage.app",
+  messagingSenderId: "383424700016",
+  appId: "1:383424700016:web:e48f7c311e26ab3edb1eb5",
+  measurementId: "G-DNH44MGWLQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCuPn6pWRDmy92Fc7TqCoxDy-E2-KZSYE4",
+    authDomain: "my-anime-website-50b6c.firebaseapp.com",
+    projectId: "my-anime-website-50b6c",
+    storageBucket: "my-anime-website-50b6c.firebasestorage.app",
+    messagingSenderId: "383424700016",
+    appId: "1:383424700016:web:e48f7c311e26ab3edb1eb5",
+    measurementId: "G-DNH44MGWLQ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
